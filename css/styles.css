@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+body {
+    background-color:aliceblue;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+   /* background-color:paleturquoise;*/
+}
+
+button:hover {
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: red;
+   /* background-color: #04AA6D;*/
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+   /* color: red;*/
+    
+}
+
+.padding-none {
+    padding: 0px;
+}
+
+.padding-tiny {
+    padding: 5px;
+}
+
+.padding-small {
+    padding: 10px;
+}
+
+.text-small {
+    font-size: 12pt;
+}
+
+.text-medium {
+    font-size: 14pt;
+}
+
+.text-large {
+    font-size: 24pt;
+}
+
+.text-huge {
+    font-size: 28pt;
+}
+
+.btn {
+    float: left;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    
+}
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.nav {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav li > button {
+    text-align: center;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.clear {
+    overflow: hidden;
+}
+
+.align-left {
+    float: left;
+}
+
+.align-right {
+    float: right;
+}
+
+#board {
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+#controls {
+    margin: 0 auto;
+}
+
+#options-menu {
+    display:none;
+}
+
+@media screen and (max-width:600px) {
+    #board {
+        height: 250px;
+        width: 250px;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    .container {
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        border-style:solid;
+        background-color:chocolate;
+    }
+
+    .padding-tiny {
+        padding: 2.5px;
+    }
+
+    .padding-small {
+        padding: 5px;
+    }
+
+    .text-small {
+        font-size: 8pt;
+    }
+
+    .text-medium {
+        font-size: 10pt;
+    }
+
+    .text-large {
+        font-size: 16pt;
+    }
+
+    .text-huge {
+        font-size: 18pt;
+    }
+}
+
+*{
+    -webkit-transition:all 0.25s ease;
+    -moz-transition:all 0.25s ease;
+    -o-transition:all 0.25s ease;
+    transition:all 0.25s ease;
+}
